@@ -38,14 +38,14 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # https://docs.google.com/spreadsheets/d/1a_5cVNY3LUAkeg-yL56rYQNwved6Hy-dvEcKSxp6f8k/edit
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    debug.sf.use_phase_offsets_as_durations=1 \
-    debug.sf.late.sf.duration=10500000 \
-    debug.sf.late.app.duration=16600000 \
-    debug.sf.early.sf.duration=16600000 \
-    debug.sf.early.app.duration=16600000 \
-    debug.sf.earlyGl.sf.duration=16600000 \
-    debug.sf.earlyGl.app.duration=16600000
-
+    debug.sf.early_app_phase_offset_ns=500000 \
+    debug.sf.early_gl_app_phase_offset_ns=15000000 \
+    debug.sf.early_gl_phase_offset_ns=3000000 \
+    debug.sf.early_phase_offset_ns=500000 \
+    debug.sf.high_fps_early_gl_phase_offset_ns=6500000 \
+    debug.sf.high_fps_early_phase_offset_ns=6100000 \
+    debug.sf.high_fps_late_app_phase_offset_ns=1000000 \
+    debug.sf.phase_offset_threshold_for_next_vsync_ns=12100000
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     pm.dexopt.boot=verify \
