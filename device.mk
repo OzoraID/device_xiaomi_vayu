@@ -296,6 +296,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.performance_level.rc \
     init.qcom.rc \
+    init.qcom.power.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
     init.target.rc \
