@@ -29,6 +29,6 @@
     <dimen name="fingerprint_pulse_radius">0dp</dimen>
 
     <!-- ROM maintainer name -->
-    <string name="build_maintainer_summary">Alisson Grizotti</string>
+    <string name="build_maintainer_summary">NekoTuru</string>
 
 </resources>
