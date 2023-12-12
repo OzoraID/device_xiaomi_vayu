@@ -14,15 +14,7 @@ iorapd.perfetto.enable=true
 
 # LMKD
 ro.config.low_ram=false
-ro.lmk.log_stats=false
-
-# Pixelmask
-ro.build.fingerprint=ZTE/P637F10_RU/P637F10:7.0/NRD90M/eng.root.20170408.120050:user/release-keys
-ro.product.brand=ZTE
-ro.product.device=P637F10
-ro.product.manufacturer=ZTE
-ro.product.model=ZTE BLADE A520
-ro.product.name=P637F10
+ro.lmk.log_stats=true
 
 # Transcoding related property.
 debug.media.transcoding.codec_max_operating_rate_720P=240
