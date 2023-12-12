@@ -354,7 +354,7 @@ public class ThermalSettingsFragment extends PreferenceFragment
                 holder.touchIcon.setVisibility(View.GONE);
             }
             holder.stateIcon.setImageResource(stateIconDawable);
-            return holder.rootView;
+            return;
         }
 
         private void setEntries(List<ApplicationsState.AppEntry> entries,
