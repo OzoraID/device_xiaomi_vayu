@@ -1,4 +1,4 @@
-# All the proprietary files are extracted from miui_VAYUGlobal_V14.0.3.0.TJUMIXM_6be397120d_13.0.zip, unless pinned.
+# These proprietary files are extracted from POCO X3 Pro (codenamed `vayu`) MIUI V14.0.1.0 TJUMIXM, unless pinned
 
 # ADSP - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/adsprpcd|12e09d8e87b260a8721c7938890186a0877a9e85
